@@ -11,9 +11,9 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/direct")
 @AllArgsConstructor
-public class Controller {
+public class DirectController {
 
     final private StorageService storageService;
 
